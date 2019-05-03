@@ -9,7 +9,7 @@ canonifyURLs = true
 # you can change this language code. In this particular case,
 # baseURL will be the English site, and baseURL/<language code> will be the
 # other languages.
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "de"
 
 # These params are used by the local EA Hugo template
 # used to generate the site. You can find the template
@@ -18,19 +18,19 @@ DefaultContentLanguage = "en"
 
   [Languages]
   [Languages.en]
-  title = "Local EA Website"
+  title = "Effective Altruism Hanover"
   weight = 1
   languageCode = "en"
 
   [Languages.en.general]
   ## -- GENERAL SITE PARAMETERS -- ##
-  fullTitle = "Effective Altruism Site Title"
+  fullTitle = "Effective Altruism Hanover"
   strapline = "Helping you do good better"
 
   [Languages.en.groupinfo]
   ## -- EA GROUP INFO -- ##
-  legalOrgName = "Effective Altruism <City Here>"
-  orgLocations = "this location and that location"
+  legalOrgName = "Effective Altruism Hanover"
+  orgLocations = "Hanover, Germany"
   contactEmail = "yourEAGroupEmail@here.com"
 
   [Languages.en.navbar]
@@ -86,5 +86,79 @@ DefaultContentLanguage = "en"
   # If your group does not have URLs for these, just add # before the line
   # to remove the link from the site
   facebookUrl = ""
+  twitterUrl = ""
+  meetupUrl = ""
+
+
+
+  [Languages.de]
+  title = "Effektiver Altruismus Hannover"
+  weight = 2
+  languageCode = "de"
+
+  [Languages.de.general]
+  ## -- GENERAL SITE PARAMETERS -- ##
+  fullTitle = "Effektiver Altruismus Hannover"
+  strapline = "Help us help you help us all."
+
+  [Languages.de.groupinfo]
+  ## -- EA GROUP INFO -- ##
+  legalOrgName = "Effektiver Altruismus Hannover"
+  orgLocations = "Hannover, Deutschland"
+  contactEmail = "yourEAGroupEmail@here.com"
+
+  [Languages.de.navbar]
+  ## -- NAVIGATION BAR HEADERS -- ##
+  # You probably don't need/want to change these,
+  # but if you do you'll also want to change the relevant .md file under the
+  # content folder so the copy corresponds with the header.
+  home = "Home"
+  faq = "FAQ"
+  effectiveAltruism = "Effektiver Altruismus"
+  aboutEA = "Über EA"
+  readingMaterial = "Lesematerial"
+  keyTerms = "Schlüsselbegriffe"
+  organizations = "Organisationen"
+  contact= "Kontakt"
+
+  [Languages.de.pages]
+  ## -- PAGE HEADERS -- ##
+  contactPageHeader = "Kontaktiere uns"
+  aboutEAPageHeader = "Was ist Effektiver Altruismus?"
+
+  [Languages.de.homepage]
+   ## -- HOMEPAGE -- ##
+  topBannerText = "Wer sind wir?"
+  leadText = "We're a group of people who want to help you answer the question: how can I do good better?"
+  firstSectionHeader = "Doing good better"
+  secondSectionHeader = "Building a community"
+  thirdSectionHeader = "Finding better ways to help"
+  bottomBannerText = "A proud member of the effective altruism network"
+
+  [Languages.de.contactform]
+  ## -- CONTACT FORM -- ##
+  leadText = "Sag 'Hallo'!"
+  senderName = "Dein Name (benötigt)"
+  senderEmail = "Deine E-Mail (benötigt)"
+  emailSubject = "Betreff"
+  emailMessage = "Deine Nachricht"
+  send = "Senden"
+
+  [Languages.de.jumbotron]
+  # These are the buttons right under the header that appears on the main page.
+  # You can use them to link to a mailing list or Facebook page.
+  # Make sure the links start with http:// or https://
+  firstButtonText = "Schaltfläche 1 Text"
+  firstButtonLink = ""
+  secondButtonText = "Schaltfläche 2 Text"
+  secondButtonLink = ""
+  # Remove the # before the text to add the optional Meetup button
+  # meetupButtonText = "Find us on Meetup"
+
+  [Languages.de.urls]
+  ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
+  # If your group does not have URLs for these, just add # before the line
+  # to remove the link from the site
+  facebookUrl = "https://www.facebook.com/EAHannover/"
   twitterUrl = ""
   meetupUrl = ""
