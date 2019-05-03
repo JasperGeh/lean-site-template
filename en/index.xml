@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Effective Altruism Hanover</title>
+    <link>https://jaspergeh.github.io/lean-site-template/en/</link>
+    <description>Recent content on Effective Altruism Hanover</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://jaspergeh.github.io/lean-site-template/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
